@@ -1,0 +1,9 @@
+<b>Testing Realtor Api </b>
+<!-- excuting of API data  -->
+<table *ngFor="let data of apidata; let i = index">
+    <tr *ngIf="i<=5">
+        <td>{{  i+1 }}</td>
+        <td>{{ data.title }}</td>
+       
+    </tr>
+</table>
